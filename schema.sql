@@ -1,7 +1,7 @@
 
 CREATE TABLE ratings (
 name TEXT,
-year INT PRIMARY KEY,
+year INT,
 platform VARCHAR,
 metascore INT,
 average_user_score DECIMAL
@@ -9,7 +9,7 @@ average_user_score DECIMAL
 
 CREATE TABLE sales (
 name TEXT,
-year INT PRIMARY KEY,
+year INT,
 platform VARCHAR,
 na_sales DECIMAL,
 eu_sales DECIMAL,
