@@ -21,7 +21,7 @@ any incorrect columns were redeclared to their correct typing leaving only clean
 
 Load: 
 	We chose to load our cleaned data into a SQL database primarily because of its 
-structured nature. Our data was originally taken from CSVs and nicely organized in tables so SQL 
+relational nature. Our data was originally taken from CSVs and nicely organized in tables so SQL 
 was a logical choice. Our sales and ratings data were loaded into two separate tables, both of which 
 contained a column with values denoting the title of a video game. An inner join was performed on 
 this common column combining the sales and ratings data for each title within the database.
